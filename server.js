@@ -21,8 +21,8 @@ module.exports = function serverRenderer({ clientStats, serverStats, title }) {
             <body>
                 <div id="main"></div>
                 <!-- Vendor -->
-                <script src="/javascripts/jquery-3.2.1.min.js"></script>
-                <script src="/javascripts/bootstrap.min.js"></script>
+                <script src="/js/jquery-3.2.1.min.js"></script>
+                <script src="/js/bootstrap.min.js"></script>
                 <!-- Application -->
                 <script src="/client.js"></script>
             </body>
