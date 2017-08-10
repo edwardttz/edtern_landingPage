@@ -1,5 +1,3 @@
-const React = require('react');
-
 module.exports = function serverRenderer({ clientStats, serverStats, title }) {
     return (req, res, next) => {
         res.status(200).send(`

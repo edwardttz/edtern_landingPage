@@ -1,7 +1,6 @@
 const React = require('react');
 
-module.exports = () => React.createElement('div', {
-	onClick() {
-		window.alert('clicked');
-	}
-}, '<h1> OMG THIS IS WORKING </h1>');
+
+module.exports = () => React.createElement('div', {className: "button"}, 
+	'<h1> OMG THIS IS WORKING </h1>');
+	
