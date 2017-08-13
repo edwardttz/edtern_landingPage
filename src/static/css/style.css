@@ -1,0 +1,104 @@
+@font-face {
+  font-family: 'Gotham-Book';
+  src: url('../fonts/Gotham-Book.ttf') format('truetype'), url('../fonts/Gotham-Book.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Gotham-Bold';
+  src: url('../fonts/Gotham-Bold.ttf') format('truetype'), url('../fonts/Gotham-Bold.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  font-family: 'Gotham-Book';
+  background-size: cover;
+}
+div {
+  width:100%;
+}
+header #logo {
+  height: 36px;
+  width: 136px;
+  object-fit: cover;
+  position: absolute;
+  top: 9px;
+  left: 4.5%;
+}
+.headerClass {
+  background: url("../img/Section_1.jpg") no-repeat;
+  background-size: 100%;
+  height: 400px;
+  text-align: center;
+  margin: 0 auto;
+}
+#heading {
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  display: table;
+}
+#heading1 {
+  width:100%;
+  text-align: center;
+  margin: 0 auto;
+  display: table-cell;
+}
+#workProcess {
+  margin:0 auto;
+}
+.heading_font {
+  font-size: 55px;
+}
+.description {
+  margin-bottom: 50px;
+}
+.information-cell {
+  width: 150px;
+  padding: 0 5% 0 5%;
+  text-align: center;
+}
+.workImg {
+  width: 150px;
+}
+.steps {
+  margin: 0;
+}
+footer {
+  background-color: #2f2e2e;
+  color: white;
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  padding-bottom: 52px;
+}
+footer #banner {
+  height: 41px;
+  width: 195px;
+  object-fit: cover;
+  margin-bottom: 15px;
+  margin-top: 50px;
+}
+footer label {
+  font-size: 23px;
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+footer #contact {
+  margin-bottom: 20px;
+}
+.not-found {
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 2em;
+  text-align: center;
+  width: 100%;
+}
+.not-found h1 {
+  font-size: 3em;
+  font-weight: bold;
+}
+.not-found h2 {
+  font-size: 2em;
+  font-weight: bold;
+}
