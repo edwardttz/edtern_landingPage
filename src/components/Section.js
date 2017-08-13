@@ -9,7 +9,10 @@ export default class Section extends React.Component {
 	  {this.props.Content.map(infoSect => {
           return <span className="detailSection">
             		<img id={infoSect.id}/>
-            		<p>{infoSect.details}</p>
+            		<p id={infoSect.id}>
+                  <label> {infoSect.title} </label><br/>
+                  {infoSect.details}
+                </p>
           		</span>;
         })}
 	  </section>
