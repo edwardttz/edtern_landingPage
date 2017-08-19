@@ -3,7 +3,7 @@
 import React from 'react'
 import { Route, IndexRoute } from 'react-router'
 import Layout from './components/Layout';
-import LandingPage from './components/LandingPage';
+import LandingPage from './landingpage/LandingPage';
 import NotFoundPage from './components/NotFoundPage';
 
 const routes = (

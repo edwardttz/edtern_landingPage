@@ -5,17 +5,17 @@ import React from 'react';
 export default class Section extends React.Component {
   render() {
 	return (
-	  <section>
+	  <div>
 	  {this.props.Content.map(infoSect => {
-          return <span className="detailSection">
-            		<img id={infoSect.id}/>
-            		<p id={infoSect.id}>
+          return <div className="detailSection">
+            		<img className="detailPic" id={infoSect.id} src={infoSect.img}/>
+            		<p id={infoSect.idNo}>
                   <label> {infoSect.title} </label><br/>
                   {infoSect.details}
                 </p>
-          		</span>;
+          		</div>;
         })}
-	  </section>
+	  </div>
 	);
   }
 }

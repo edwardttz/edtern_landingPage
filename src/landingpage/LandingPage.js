@@ -13,6 +13,9 @@ export default class LandingPage extends React.Component {
 		<header>
 			<div className="headerClass">
 				<img id="logo" src="/img/banner.png"/>
+				<a href="https://goo.gl/forms/jMGpuJp6Z1DyU54v2">
+					<button id="buttonLink" className="btn btn-danger"> Click here! </button>
+				</a>
 			</div>
 		</header>
 		<HowItWorks WorkContent={WorkContent}/>
