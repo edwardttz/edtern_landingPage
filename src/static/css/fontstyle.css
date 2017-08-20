@@ -1,0 +1,40 @@
+@font-face {
+  font-family: 'Gotham';
+  src: url('fonts/gotham-bold/gotham-bold.eot'); /* IE9 Compat Modes */
+  src: url('fonts/gotham-bold/gotham-bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+     url('fonts/gotham-bold/gotham-bold.woff') format('woff'), /* Modern Browsers */
+     url('fonts/gotham-bold/gotham-bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+     url('fonts/gotham-bold/gotham-bold.svg#svgFontName') format('svg'); /* Legacy iOS */
+   font-weight: 700;
+   font-style: normal;
+}
+@font-face {
+  font-family: 'Gotham';
+  src: url('fonts/gotham-medium/gotham-medium.eot'); /* IE9 Compat Modes */
+  src: url('fonts/gotham-medium/gotham-medium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+     url('fonts/gotham-medium/gotham-medium.woff') format('woff'), /* Modern Browsers */
+     url('fonts/gotham-medium/gotham-medium.ttf')  format('truetype'), /* Safari, Android, iOS */
+     url('fonts/gotham-medium/gotham-medium.svg#svgFontName') format('svg'); /* Legacy iOS */
+   font-weight: 400;
+   font-style: normal;
+}
+@font-face {
+  font-family: 'Gotham';
+  src: url('fonts/gotham-light/gotham-light.eot'); /* IE9 Compat Modes */
+  src: url('fonts/gotham-light/gotham-light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+     url('fonts/gotham-light/gotham-light.woff') format('woff'), /* Modern Browsers */
+     url('fonts/gotham-light/gotham-light.ttf')  format('truetype'), /* Safari, Android, iOS */
+     url('fonts/gotham-light/gotham-light.svg#svgFontName') format('svg'); /* Legacy iOS */
+   font-weight: 300;
+   font-style: normal;
+}
+@font-face {
+  font-family: 'Gotham-Book';
+  src: url('fonts/gotham-book/gotham-book.eot'); /* IE9 Compat Modes */
+  src: url('fonts/gotham-book/gotham-book.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+     url('fonts/gotham-book/gotham-book.woff') format('woff'), /* Modern Browsers */
+     url('fonts/gotham-book/gotham-book.ttf')  format('truetype'), /* Safari, Android, iOS */
+     url('fonts/gotham-book/gotham-book.svg#svgFontName') format('svg'); /* Legacy iOS */
+   font-weight: 300;
+   font-style: normal;
+}
