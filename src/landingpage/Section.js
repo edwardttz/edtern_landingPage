@@ -5,7 +5,7 @@ import React from 'react';
 export default class Section extends React.Component {
   render() {
 	return (
-	  <div>
+	  <div id="SectionDiv">
 	  {this.props.Content.map(infoSect => {
           return <div className="detailSection">
             		<img className="detailPic" id={infoSect.id} src={infoSect.img}/>

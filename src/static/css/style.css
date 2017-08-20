@@ -14,10 +14,17 @@ header #logo {
   top: 9px;
   left: 4.5%;
 }
+@media screen and (min-width: 1500px) {
+    .headerClass {
+        min-height: 100vh;
+    }
+}
 .headerClass {
   background: url("../img/Section_1.jpg") no-repeat;
   background-size: 100%;
-  height: 100vh;
+  height: 650px;
+  width: 100%;
+  min-width: 1349px;
   text-align: center;
   margin: 0 auto;
 }
@@ -25,6 +32,7 @@ footer {
   background-color: #2f2e2e;
   color: white;
   width: 100%;
+  min-width: 1349px;
   text-align: center;
   margin: 0 auto;
   padding-bottom: 52px;
@@ -47,17 +55,21 @@ footer #contact {
 /**
   * Landing Page CSS
   */
+.landingPage {
+  text-align: center;
+}
 #buttonLink {
   width: 105px;
   height: 43px;
   position: relative;
-  top: 340px;
+  top: 50%;
 }
 #heading {
   width: 100%;
+  min-width: 1349px;
   height: 500px;
   text-align: center;
-  margin-top: 4%;
+  margin-top: 30px;
   display: block;
 }
 .heading_font {
@@ -67,8 +79,11 @@ footer #contact {
   margin-bottom: 50px;
 }
 #workProcess {
-  padding-left: 14%;
   width: 100%;
+  min-width: 1349px;
+  justify-content: center;
+  display: flex;
+  height: 300px;
 }
 .information-cell {
   width: 150px;
@@ -81,6 +96,10 @@ footer #contact {
 }
 .steps {
   margin: 0;
+}
+#SectionDiv {
+  width: 1349px;
+  margin: 0 auto;
 }
 .detailSection {
   height: 420px;

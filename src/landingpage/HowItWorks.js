@@ -14,7 +14,7 @@ export default class Section extends React.Component {
           return <div className="information-cell">
                   <img className="workImg" id={infoDetails.id} src={infoDetails.img}/>
                   <label className="heading_font steps">{infoDetails.title}</label>
-                  <p className="content">{infoDetails.details}</p>
+                  <p>{infoDetails.details}</p>
                 </div>;
         })}
     </div>

@@ -14,7 +14,7 @@ export default class LandingPage extends React.Component {
 			<div className="headerClass">
 				<img id="logo" src="/img/banner.png"/>
 				<a href="https://goo.gl/forms/jMGpuJp6Z1DyU54v2">
-					<button id="buttonLink" className="btn btn-danger"> Click here! </button>
+					<button id="buttonLink" className="btn btn-danger"> Sign Up! </button>
 				</a>
 			</div>
 		</header>
@@ -23,8 +23,8 @@ export default class LandingPage extends React.Component {
 		<footer>
 			<img id="banner" src="/img/banner.png"/>
 			<p>
-				We are still in the developmental stages and if you are a student looking for career opportunities or an employer looking to hire the
-				<br/>best talents, leave us your email contact and we will update you on our progress and the upcoming opportunities available.
+				Our platform is still in development stages, but we already have projects that are waiting for students like you to explore and learn!
+				<br/> Sign up via the link above and we will contact you soon enough for a one-to-one consultation to help you find a project that you’ll love.
 			</p>
 			<label>
 				Be in Touch
